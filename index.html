@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Semance de Foie</title>
+    <meta
+      name="keywords"
+      content="Imagine if you were a butterfly, could you fly high and fast enough to stay away from a falcon?"
+    />
+    <meta
+      name="description"
+      content="Semance de foi Web app vol 1"
+    />
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+
+    <!-- background video setup -->
+    <!-- Later on -->
+
+
+    <div id="content-wrapper">
+      
+      <header class="header header--bg">
+        <div class="container">
+          <nav class="navbar">
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#myNavbar"
+              >
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- <a class="navbar-brand" href="#"></a> -->
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="index.html">Radio</a></li>
+                <li><a href="#donate">Donasyon</a></li>
+                <li><a href="#donate"> Koman'w Ka Ede</a></li>
+              </ul>
+            </div>
+          </nav>
+        
+        
+          <div class="row">
+            <div class="col-lg-6">
+              <img
+                class="img-responsive"
+                src="assets/images/flower.png"
+                alt=""
+              />
+
+            </div>
+            <div class="col-lg-6 header__content">
+              <h1 class="title">
+                Ministere semance de foie et de vie <span class="title-style"></span>
+              </h1>
+              <p>
+                Semance de foie se yon ministe de twa legliz ki dirije pa Paste Bernadel
+                Lesperance, e ki ap kontinye grandi pou fe travay seye a.
+              </p>
+              <!-- <a class="header__button" href="#">Konnen kijan ou ka Sipote</a> -->
+              <a class="header__button" href="#">Tande Radio a</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="steps">
+        <div class="container">
+          <div class="page-section text-center">
+            <h2 class="page-section__title">
+              Siw ta renemen yon moun priye ave'w?
+            </h2>
+            <div class="page-section__title-style">
+              <span class="first-line"></span>
+              <span class="second-line"></span>
+            </div>
+            <p class="page-section__subtitle">
+              Rempli Fo'm anba
+            </p>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="text-center steps__single steps__single-first">
+                  <img src="assets/images/step1.png" alt="" />
+                  <p>Ap gen yon moun kap text ou oubyen rele'w</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="text-center steps__single">
+                  <img src="assets/images/step2.png" alt="" />
+                  <p>
+                    Rete an kontak avek nou, nap toujou la pou sipote'w nan
+                    chimen an.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="text-center steps__single steps__single-last">
+                  <img src="assets/images/step3.png" alt="" />
+                  <p>Pa bliye download App nou an, valab pou tout android</p>
+                </div>
+              </div>
+            </div>
+            <a class="button" href="#">Kontakte nou</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="donate" class="video video--bg">
+        <div class="container">
+          <div class="page-section">
+            <div class="row">
+              <div class="col-md-7 video__left">
+                <a data-toggle="modal" data-target="#myModal" href="#"
+                  ><i class="material-icons">play_circle_filled</i></a
+                >
+              </div>
+              <div class="col-md-5">
+                <div class="video__right text-center">
+                  <h2 class="video__title"> Gade Paste Bernadel Live sou Facebook</h2>
+                  <div class="video__title-style">
+                    <span class="first-line"></span>
+                    <span class="second-line"></span>
+                  </div>
+                  <p>
+                    Ou ka ede Paste Bernadel Bati Tanp li an pa Donasyon paw.
+                    bay selon Ke'w.
+                  </p>
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_donations" />
+                    <input type="hidden" name="business" value="ULXBHTQFNGDDG" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input class= "button--form" type="submit" value="Donasyon" border="0" name="submit" title="bay ak ke kontan!" />
+                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                    </form>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- video-popup -->
+      <div class="container">
+        <div
+          class="modal fade"
+          id="myModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe
+                    class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/wKtPBOb80II?autoplay=0"
+                    frameborder="0"
+                    allowfullscreen=""
+                    id="video"
+                    allowscriptaccess="always"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- video-popup-end -->
+
+      <section class="team team--bg">
+        <div class="container">
+          <div class="page-section">
+            <div class="text-center">
+              <h2 class="page-section__title">Kiyes Pastor Lesperance ye</h2>
+              <div class="team__title-style">
+                <span class="first-line"></span>
+                <span class="second-line"></span>
+              </div>
+              <h3><p>Paste Bernadel se yon sevite bondye kap chache tout fason li kapab pou fe minite bondye a grandi. pou kunya lap travay sou yon liv ke nou ka jwenn sou amazon le li soti. epi lap bati kontinye agrandi tanp li an an ayiti.
+                si'w ta vle pran kontak ak paste Bernadel, rempli fom nan epi li mete kontak ak ou. 
+                Paste Bernadel toujou pre pou ede jen moun grandi, e li toujou la pou anseye pawol bondye a. Paste Bernadel vle pou li preche nan tout mond land, sa se plan pa li ak bondye. li genyen yon lekol li fe preke gratis pou timoun aprann an ayiti, li fe yon jan pou li bay yo manje chak jou.
+                paste Bernadel vle ou mete men tou nan travay la.
+              </p></h3>
+            </div>
+              <!-- <div class="col-md-4">
+               paste bernadel image
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="form form--bg">
+        <div class="container">
+          <div class="page-section">
+            <div class="text-center">
+              <h2 class="page-section__title page-section__title--white">
+                Contact us
+              </h2>
+              <div class="form__title-style">
+                <span class="first-line"></span>
+                <span class="second-line"></span>
+              </div>
+              <p class="page-section__subtitle page-section__subtitle--white">
+                Ranpli fom sa pou'w ka mande priye, oubyen nenpot problem ou genyen an. ap gen yon moun ki pou ede ou, pa ezite.
+              </p>
+            </div>
+            <form action="#">
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Non paw" />
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="email" placeholder="Email ou" />
+              </div>
+              <div class ="form-group">
+                <input class="form-control" type="phone number" placeholder="Nimero Telefon ou">
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  placeholder="ekri rezon an la"
+                ></textarea>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-button">
+                  <input class="button--form" type="submit" value="Voye ale" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer footer--bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 footer__left">
+              <!-- <a class="navbar-brand" href="#"></a> -->
+              <p>Copyright <span>&copy;</span>MDFVI</p>
+            </div>
+            <div class="col-md-4 footer__social-icons">
+              <li>
+                <a href="#"><i class="flaticon-facebook-letter-logo"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="flaticon-twitter-logo-silhouette"></i></a>
+              </li>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="assets/jquery/jquery-3.2.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="assets/owl-slider/owl.carousel.min.js"></script> -->
+
+    <script>
+      $(document).ready(function () {
+        $('button').click(function (e) {
+          $('.collapse').collapse('hide');
+        });
+      });
+    </script>
+  </body>
+</html>
+
